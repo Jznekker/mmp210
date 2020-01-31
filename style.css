@@ -20,12 +20,12 @@ h1{
 }
 
 a{
-	color: yellow;
+	color: white;
 	transition: color 300ms ease-in;
 }
 
 a:hover{
-	color: white;
+	color: yellow;
 }
 
 img{

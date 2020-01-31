@@ -1,0 +1,53 @@
+body{
+	background-image: url(back.jpg);
+	font-size: 20px;
+}
+
+p, a, h2{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+h1{
+	text-align: center;
+	color: yellow;
+	margin: 0 auto;
+	width: 200;
+	height: 50px;
+	border: 2px solid #fff;
+}
+
+a{
+	color: yellow;
+	transition: color 300ms ease-in;
+}
+
+a:hover{
+	color: yellow;
+}
+
+img{
+	max-width: 100%;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	width: 1500;
+    height: 1000px;
+    border: 2px solid #fff;
+}
+
+.link{
+	list-style: none;
+	text-align: center;
+}
+
+.footer{
+    width: 1500px;
+    height: 1500x;
+    text-align: center;
+    color: #ffffff;
+}

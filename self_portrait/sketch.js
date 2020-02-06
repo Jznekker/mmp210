@@ -5,6 +5,11 @@ function setup() {
 }
 
 function draw() {
-	background(220);
-	ellipse(320, 180, 100);
+	background('blue');
+	//Face
+	ellipse(320, 180, 300);
+	//Right eye
+	ellipse(400, 160, 20);
+	//Left eye
+	ellipse(350, 160, 30);
 }

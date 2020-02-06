@@ -40,6 +40,6 @@ function draw() {
 	ellipse(535, 225, 30, 30);
 
 	//cup
-	fill('white');
+	fill('violet');
 	rect(495, 260, 80, 40, 20);
 }

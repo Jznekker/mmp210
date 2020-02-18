@@ -44,13 +44,13 @@ function draw() {
 
 	//Icecream
 	fill(247, 219, 236);
-	ellipse(550, 250, 30, 30);
+	ellipse(x + 200 ,250, 30, 30);
 	fill(248, 200, 226);
-	ellipse(520, 250, 30, 30);
+	ellipse(x + 230, 250, 30, 30);
 	fill(255, 253, 208);
-	ellipse(535, 225, 30, 30);
+	ellipse(x + 215, 225, 30, 30);
 
 	//cup
 	fill('violet');
-	rect(495, 260, 80, 40, 20);
+	rect(x + 175, 260, 80, 40, 20);
 }

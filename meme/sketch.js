@@ -9,16 +9,16 @@ function setup() {
 }	
 
 function draw() {
-	background('gray');
+	background('white');
 
-	var world = 'Hello world';
+	var world = 'Enjoy my works';
 	var end = map(frameCount, 0, 200, 0, world.length);
 
 	textAlign(LEFT);
-	textSize(100);
+	textSize(75);
 	fill('yellow');
 	stroke('blue');
-	strokeWeight(20)
+	strokeWeight(10)
 	textStyle(ITALIC);
 	textFont('Segoe UI');
 	text(world.substring(0, end), 0, 250);
